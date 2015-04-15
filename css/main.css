@@ -1,613 +1,502 @@
+@charset "UTF-8";
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
+ * Kroc Camen, and the H5BP dev community and team. */
 /* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+ * Base styles: opinionated defaults
+ * ========================================================================== */
+/* line 12, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+html, button, input, select, textarea {
+  color: #222; }
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
+/* line 15, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 html {
-    font-size: 1em;
-    line-height: 1.4;
-}
+  font-size: 1em;
+  line-height: 1.4; }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+ * Customize the background color to match your design. */
+/* line 24, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+\::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
 
 /*
- * A better looking default horizontal rule
- */
-
+ * A better looking default horizontal rule */
+/* line 31, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
 
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
-
-audio,
-canvas,
-img,
-video {
-    vertical-align: middle;
-}
+ * their containers: h5bp.com/i/440 */
+/* line 43, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+audio, canvas, img, video {
+  vertical-align: middle; }
 
 /*
- * Remove default fieldset styles.
- */
-
+ * Remove default fieldset styles. */
+/* line 49, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
+  border: 0;
+  margin: 0;
+  padding: 0; }
 
 /*
- * Allow only vertical resizing of textareas.
- */
-
+ * Allow only vertical resizing of textareas. */
+/* line 57, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 textarea {
-    resize: vertical;
-}
+  resize: vertical; }
 
 /* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
-
+ * Browse Happy prompt
+ * ========================================================================== */
+/* line 64, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
+ * Author's custom styles
+ * ========================================================================== */
+/* line 74, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 body {
-    text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
-    color: #565656;
-}
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  color: #565656; }
 
-h1,
-h2,
-h3 {
-    font-weight: normal;
-}
+/* line 80, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+h1, h2, h3 {
+  font-weight: normal; }
 
+/* line 83, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 h1 {
-    font-size: 30px;
-    line-height: 34px;
-    margin: 0 0 10px 0;
-    padding: 0;
-}
+  font-size: 30px;
+  line-height: 34px;
+  margin: 0 0 10px 0;
+  padding: 0; }
 
+/* line 89, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 h2 {
-    font-size: 25px;
-    line-height: 28px;
-    margin: 0 0 25px 0;
-    padding: 0;
-}
+  font-size: 25px;
+  line-height: 28px;
+  margin: 0 0 25px 0;
+  padding: 0; }
 
-p+h2{
-    margin-top: 20px;
-}
+/* line 95, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+p + h2 {
+  margin-top: 20px; }
 
+/* line 98, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 h3 {
-    font-size: 20px;
-    line-height: 23px;
-    margin: 0 0 23px 0;
-    padding: 0;
-}
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+  padding: 0; }
 
-p+h3{
-    margin-top: 20px;
-}
+/* line 104, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+p + h3 {
+  margin-top: 20px; }
 
+/* line 107, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+header, nav, main, footer {
+  position: relative;
+  outline: 1px solid #ddd;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left; }
 
-header,
-nav,
-main,
-footer {
-    position: relative;
-    outline: 1px solid #ddd;
-    width: 1000px;
-    margin: 0 auto;
-    text-align: left;
-}
-
+/* line 114, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+  margin: 0;
+  padding: 0;
+  list-style: none; }
 
+/* line 119, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 p {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
-header{
-    height: 130px;
-}
+/* line 123, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+a {
+  outline: none !important; }
+  /* line 125, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  a:hover {
+    text-decoration: none; }
 
-header .logo{
+/* line 128, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+header {
+  height: 130px; }
+  /* line 130, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  header .logo {
     position: absolute;
     top: 15px;
     left: 0;
     display: block;
     width: 100px;
     height: 100px;
-    background: url(../img/logo.png) center center no-repeat;
-}
-
-header .contacts{
+    background: url(../img/logo.png) center center no-repeat; }
+  /* line 138, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  header .contacts {
     position: absolute;
     top: 40px;
     right: 0;
-    text-align: right;
-}
+    text-align: right; }
+    /* line 143, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    header .contacts .phone {
+      font-size: 25px;
+      font-weight: bold; }
 
-header .contacts .phone{
-    font-size: 25px;
-    font-weight: bold;
-}
-
+/* line 147, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 nav.top_menu {
-    height: 25px;        
-}
+  height: 25px; }
+  /* line 149, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  nav.top_menu ul li {
+    float: left; }
+    /* line 151, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    nav.top_menu ul li a {
+      display: block;
+      padding: 3px 10px;
+      margin: 0; }
 
-nav.top_menu ul{
-}
-
-nav.top_menu ul li{
-    float: left;
-}
-
-nav.top_menu ul li a{
-    display: block;
-    padding: 3px 10px;
-    margin: 0;
-}
-
+/* line 156, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .slider {
-    position: relative;
-    height: 400px;
-    outline: 1px solid #ddd;
-}
+  position: relative;
+  height: 400px;
+  outline: 1px solid #ddd; }
 
+/* line 161, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 main {
-    padding: 20px 0;
-}
-
-main p {
+  padding: 20px 0; }
+  /* line 163, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  main p {
     font-size: 14px;
     line-height: 16px;
     margin: 0 0 10px 0;
-    padding: 0;
-}
+    padding: 0; }
 
+/* line 169, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 nav.bottom_menu {
-    height: 25px;        
-}
+  height: 25px; }
+  /* line 171, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  nav.bottom_menu ul li {
+    float: left; }
+    /* line 173, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    nav.bottom_menu ul li a {
+      display: block;
+      padding: 3px 10px;
+      margin: 0; }
 
-nav.bottom_menu ul{
-}
-
-nav.bottom_menu ul li{
-    float: left;
-}
-
-nav.bottom_menu ul li a{
-    display: block;
-    padding: 3px 10px;
-    margin: 0;
-}
-
+/* line 178, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 footer {
-    height: 110px;
-}
-
-footer .copyright_company{
+  height: 110px; }
+  /* line 180, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  footer .copyright_company {
     position: absolute;
     top: 40px;
     left: 0;
     width: 200px;
     font-size: 12px;
-    line-height: 14px;
-}
-
-footer .copyright_company .logo{
-    background: url(../img/footer_company_logo.png);
-    display: block;
-    float: left;
-    width: 25px;
-    height: 27px;
-    margin: 0 10px 0 0;
-}
-
-footer .copyright_company a{
-    color: #565656;
-    text-decoration: none;
-}
-
-footer .copyright_pixel{
+    line-height: 14px; }
+    /* line 187, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    footer .copyright_company .logo {
+      background: url(../img/footer_company_logo.png);
+      display: block;
+      float: left;
+      width: 25px;
+      height: 27px;
+      margin: 0 10px 0 0; }
+    /* line 194, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    footer .copyright_company a {
+      color: #565656;
+      text-decoration: none; }
+  /* line 197, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  footer .copyright_pixel {
     position: absolute;
     top: 40px;
     right: 0;
     width: 200px;
     text-align: right;
     font-size: 12px;
-    line-height: 14px;
-}
+    line-height: 14px; }
+    /* line 205, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    footer .copyright_pixel .logo {
+      background: url(../img/footer_pixelstar_logo.png);
+      display: block;
+      float: right;
+      width: 25px;
+      height: 27px;
+      margin: 0 0 0 10px; }
+    /* line 212, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    footer .copyright_pixel a {
+      color: #565656;
+      text-decoration: none; }
 
-footer .copyright_pixel .logo{
-    background: url(../img/footer_pixelstar_logo.png);
-    display: block;
-    float: right;
-    width: 25px;
-    height: 27px;
-    margin: 0 0 0 10px;
-}
-
-footer .copyright_pixel a{
-    color: #565656;
-    text-decoration: none;
-}
-
-/**SLIDER**/
-
+/**SLIDER* */
+/* line 218, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .jcarousel-wrapper {
-    margin: 20px auto;
-    position: relative;
-    border: 10px solid #fff;
-    width: 600px;
-    height: 400px;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-    -webkit-box-shadow: 0 0 2px #999;
-       -moz-box-shadow: 0 0 2px #999;
-            box-shadow: 0 0 2px #999;
-}
-
-
-.jcarousel-wrapper .photo-credits {
+  margin: 20px auto;
+  position: relative;
+  border: 10px solid #fff;
+  width: 600px;
+  height: 400px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 2px #999;
+  -moz-box-shadow: 0 0 2px #999;
+  box-shadow: 0 0 2px #999; }
+  /* line 230, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .jcarousel-wrapper .photo-credits {
     position: absolute;
     right: 15px;
     bottom: 0;
     font-size: 13px;
     color: #fff;
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
-    opacity: .66;
-}
+    opacity: .66; }
+    /* line 238, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    .jcarousel-wrapper .photo-credits a {
+      color: #fff; }
 
-.jcarousel-wrapper .photo-credits a {
-    color: #fff;
-}
-
-/** Carousel **/
-
+/** Carousel * */
+/* line 243, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .jcarousel {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
-
-.jcarousel ul {
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+  /* line 247, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .jcarousel ul {
     width: 20000em;
     position: relative;
     list-style: none;
     margin: 0;
-    padding: 0;
-}
-
-.jcarousel li {
+    padding: 0; }
+  /* line 253, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .jcarousel li {
     float: left;
-    width: 100%;
-}
+    width: 100%; }
+    /* line 256, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    .jcarousel li a {
+      display: block;
+      height: 400px;
+      width: 100%;
+      background-position: center center;
+      background-repeat: repeat-x; }
 
-.jcarousel li a{
-    display: block;
-    height: 400px;
-    width: 100%;
-    background-position: center center;
-    background-repeat: repeat-x;
-}
+/** Carousel Controls * */
+/* line 265, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+.jcarousel-prev, .jcarousel-next {
+  position: absolute;
+  top: 180px;
+  width: 32px;
+  height: 32px; }
 
-
-/** Carousel Controls **/
-
-.jcarousel-prev,
-.jcarousel-next {
-    position: absolute;
-    top: 180px;
-    width: 32px;
-    height: 32px;
-}
-
+/* line 271, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .jcarousel-prev {
-    left: 50px;
-    background: url(../img/slider_prev.png);
-}
+  left: 50px;
+  background: url(../img/slider_prev.png); }
 
+/* line 275, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .jcarousel-next {
-    right: 50px;
-    background: url(../img/slider_next.png);
-}
+  right: 50px;
+  background: url(../img/slider_next.png); }
 
-.jcarousel-prev:hover span,
-.jcarousel-next:hover span {
-    display: block;
-}
+/* line 279, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+.jcarousel-prev:hover span, .jcarousel-next:hover span {
+  display: block; }
 
-.jcarousel-prev.inactive,
-.jcarousel-next.inactive {
-    opacity: .5;
-    cursor: default;
-}
+/* line 282, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+.jcarousel-prev.inactive, .jcarousel-next.inactive {
+  opacity: .5;
+  cursor: default; }
 
-/** Carousel Pagination **/
-
+/** Carousel Pagination * */
+/* line 288, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .jcarousel-pagination {
-    position: absolute;
-    bottom: 0;
-    left: 15px;
-}
-
-.jcarousel-pagination a {
+  position: absolute;
+  bottom: 0;
+  left: 15px; }
+  /* line 292, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .jcarousel-pagination a {
     text-decoration: none;
     display: inline-block;
-    
     font-size: 11px;
     line-height: 14px;
     min-width: 14px;
-    
     background: #fff;
     color: #4E443C;
     border-radius: 14px;
     padding: 3px;
     text-align: center;
-    
     margin-right: 2px;
-    
-    opacity: .75;
-}
-
-.jcarousel-pagination a.active {
-    background: #4E443C;
-    color: #fff;
-    opacity: 1;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-}
-
-
-
-
-
-
+    opacity: .75; }
+    /* line 305, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+    .jcarousel-pagination a.active {
+      background: #4E443C;
+      color: #fff;
+      opacity: 1;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75); }
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
+ * Helper classes
+ * ========================================================================== */
 /*
- * Image replacement
- */
-
+ * Image replacement */
+/* line 318, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
-
-.ir:before {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px; }
+  /* line 324, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .ir:before {
     content: "";
     display: block;
     width: 0;
-    height: 150%;
-}
+    height: 150%; }
 
 /*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
-
+ * Hide from both screenreaders and browsers: h5bp.com/u */
+/* line 333, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .hidden {
-    display: none !important;
-    visibility: hidden;
-}
+  display: none !important;
+  visibility: hidden; }
 
 /*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
-
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v */
+/* line 340, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+  /* line 350, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
     overflow: visible;
     position: static;
-    width: auto;
-}
+    width: auto; }
 
 /*
- * Hide visually and from screenreaders, but maintain layout
- */
-
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p */
+/*
+ * Hide visually and from screenreaders, but maintain layout */
+/* line 365, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
 .invisible {
-    visibility: hidden;
-}
+  visibility: hidden; }
 
 /*
  * Clearfix: contain floats
  *
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
+ *		`contenteditable` attribute is included anywhere else in the document.
+ *		Otherwise it causes space to appear at the top and bottom of elements
+ *		that receive the `clearfix` class.
  * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
+ *		`:before` to contain the top-margins of child elements. */
+/* line 379, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+.clearfix {
+  *zoom: 1; }
+  /* line 380, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .clearfix:before {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  /* line 385, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+    clear: both; }
 
 /*
  * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.clearfix {
-    *zoom: 1;
-}
-
+ * Include this rule to trigger hasLayout and contain floats. */
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
+ * EXAMPLE Media Queries for Responsive Design.
+ * These examples override the primary ('mobile first') styles.
+ * Modify as content requires.
+ * ========================================================================== */
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
-
+ * Print styles.
+ * Inlined to avoid required HTTP connection: h5bp.com/r
+ * ========================================================================== */
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
+  /* line 415, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+  /* line 421, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  a {
+    text-decoration: underline; }
+    /* line 423, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
     a:visited {
-        text-decoration: underline;
-    }
-
+      text-decoration: underline; }
+    /* line 425, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
     a[href]:after {
-        content: " (" attr(href) ")";
-    }
+      content: " (" attr(href) ")"; }
+  /* line 427, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+  /*
+	 * Don't show links for images, or javascript/internal links */
+  /* line 431, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  .ir a:after {
+    content: ""; }
+  /* line 434, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: ""; }
+  /* line 436, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  /* line 439, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+  /* line 442, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  tr {
+    page-break-inside: avoid; }
+  /* line 444, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  img {
+    page-break-inside: avoid;
+    max-width: 100% !important; }
+  @page {
+    margin: 0.5cm; }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  /* line 450, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+  /* line 453, /Users/egor/Работа/starter_bp_tbs/css/main.sass */
+  h2, h3 {
+    page-break-after: avoid; } }
 
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+/*# sourceMappingURL=main.css.map */
